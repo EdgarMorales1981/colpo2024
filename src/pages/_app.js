@@ -1,5 +1,11 @@
-import "@/styles/globals.css";
+// pages/_app.js
+import { useEffect } from 'react';
+ // Asegúrate de importar desde la ruta correcta
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+function MyApp({ Component, pageProps }) {
+
+
+    return <Component {...pageProps} />;
 }
+
+export default MyApp;
