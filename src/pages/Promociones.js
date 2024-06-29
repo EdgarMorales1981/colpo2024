@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../styles/Promociones.module.css';
-import NavMenu from '@/pages/navmenu';
+import NavMenu from '@/pages/NavMenu';
 
 const Promociones = () => {
     return (

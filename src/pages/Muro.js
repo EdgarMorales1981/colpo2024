@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router';
-import NavMenu from '@/pages/navmenu';
+import NavMenu from '@/pages/NavMenu';
 import React, {useEffect, useState} from "react";
 
 import {supabase} from "../../lib/supabase";

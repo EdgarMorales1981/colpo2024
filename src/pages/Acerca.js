@@ -1,5 +1,5 @@
 import Gallery from '../pages/Components/Gallery'
-import NavMenu from "@/pages/navmenu";
+import NavMenu from "@/pages/NavMenu";
 
 export default function Acerca() {
     return (

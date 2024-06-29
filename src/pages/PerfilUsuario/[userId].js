@@ -1,11 +1,11 @@
 import { useRouter } from 'next/router';
-import NavMenu from '@/pages/navmenu';
+import NavMenu from '@/pages/NavMenu';
 import React, { useEffect, useState } from 'react';
 import { supabase } from '../../../lib/supabase';
 import styles from '@/styles/Perfil.module.css';
 import Post from '@/pages/Post/[userId]';
 
-const PerfilUsuarioPage = () => {
+const PerfilUsuario = () => {
     const router = useRouter();
     const { userId } = router.query;
     const [usuarios, setUsuarios] = useState([]);
@@ -79,4 +79,4 @@ const PerfilUsuarioPage = () => {
     );
 };
 
-export default PerfilUsuarioPage;
+export default PerfilUsuario;

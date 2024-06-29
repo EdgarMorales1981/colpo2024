@@ -1,5 +1,5 @@
 import styles from '../styles/Login.module.css'
-import NavMenu from "@/pages/navmenu";
+import NavMenu from "@/pages/NavMenu";
 import { supabase } from "../../lib/supabase";
 import { useState } from "react";
 import { useRouter } from 'next/router';

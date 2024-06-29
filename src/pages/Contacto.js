@@ -1,4 +1,4 @@
-import NavMenu from "@/pages/navmenu";
+import NavMenu from "@/pages/NavMenu";
 import React from "react";
 
 

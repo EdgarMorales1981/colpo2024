@@ -1,5 +1,5 @@
 import React from 'react'
-import NavMenu from "@/pages/navmenu";
+import NavMenu from "@/pages/NavMenu";
 import styles from '../styles/Home.module.css'
 
 const Index = () => {

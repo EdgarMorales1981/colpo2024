@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styles from '../styles/Register.module.css';
-import NavMenu from "@/pages/navmenu";
+import NavMenu from "@/pages/NavMenu";
 import { supabase } from "../../lib/supabase";
 import { useRouter } from 'next/router';
 
