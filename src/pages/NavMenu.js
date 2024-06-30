@@ -27,7 +27,7 @@ const NavMenu = () => {
     const borrar = () => {
         localStorage.removeItem('userlogin');
         alert('Sesión cerrada');
-        router.push('/login');
+        router.push('/Login');
     };
 
     return (
